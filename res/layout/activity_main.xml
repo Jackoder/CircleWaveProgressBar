@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res/com.jackoder.widget"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <com.jackoder.widget.CircleWaveProgressBar
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_centerInParent="true"
+
+            app:above_wave_color="#00ff00"
+            app:below_wave_color="#8800ff00"
+            app:progress="60"
+            app:wave_height="8dp"
+            app:wave_width_rate="middle"
+            app:wave_hz="slow"
+            app:progressTextColor="#fff"
+            app:progressTextSize="64sp"
+            app:progressTextVisible="true"
+            app:strokeWidth="4dp"
+            app:strokeColor="#fff"/>
+
+</RelativeLayout>

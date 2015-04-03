@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleWaveProgressBar">
+        <attr name="above_wave_color" format="color"/>
+        <attr name="below_wave_color" format="color"/>
+        <attr name="progress" format="integer"/>
+        <attr name="wave_height" format="dimension"/>
+        <attr name="wave_width_rate" format="enum">
+            <enum name="large" value="3"/>
+            <enum name="middle" value="2" />
+            <enum name="small" value="1" />
+        </attr>
+        <attr name="wave_hz" format="enum">
+            <enum name="fast" value="15" />
+            <enum name="normal" value="10" />
+            <enum name="slow" value="5" />
+        </attr>
+        <attr name="progressTextSize" format="dimension"/>
+        <attr name="progressTextColor" format="color"/>
+        <attr name="progressTextVisible" format="boolean"/>
+        <attr name="strokeWidth" format="dimension"/>
+        <attr name="strokeColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="Themes">
+        <attr name="waveViewStyle" format="reference" />
+    </declare-styleable>
+</resources>
