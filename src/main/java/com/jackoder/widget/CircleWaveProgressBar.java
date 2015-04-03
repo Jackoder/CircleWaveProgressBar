@@ -127,8 +127,8 @@ public class CircleWaveProgressBar extends View {
                 || (Build.VERSION.SDK_INT == Build.VERSION_CODES.KITKAT  && (MODEL_GALAXY_S3.equals(Build.MODEL) || MODEL_GALAXY_S4.equals(Build.MODEL)))) {
             // clipPath only available on hardware for 18+, and not S3/S4 with 4.4.2
             setLayerType(LAYER_TYPE_SOFTWARE, null);
+//            Log.d("accelerated", "result: " + isHardwareAccelerated());
         }
-        Log.d("accelerated", "result: " + isHardwareAccelerated());
         mAboveWavePaint.setColor(mAboveWaveColor);
         mAboveWavePaint.setStyle(Paint.Style.FILL);
         mAboveWavePaint.setAntiAlias(true);
